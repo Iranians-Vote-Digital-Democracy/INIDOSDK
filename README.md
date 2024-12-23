@@ -4,9 +4,9 @@ Around 65 million Iranians hold the smart Iranian identity card (NID) or کار�
 
 National Organization for Civil Registration is the main body in charge of the NIDs and [Matiran Co.](https://www.linkedin.com/company/matiran/about/), is believed to be the main developer of (all or some parts of) the software on the cards.
 
-We are currently investigating one of the Matiran's protected SDKs used by a 3rd party application [(Dastine)](pki.co.ir), and will gradually share our findings with you as we proceed. If you are interested in reverse-engineering next to us, an expert in smart cards, ex-employee of any of the named organisations having worked on the tech, please get in touch.
+We are currently investigating one of the Matiran's protected SDKs used by a 3rd party application [(Dastine)](pki.co.ir), and will gradually share our findings with you as we proceed. If you are interested in reverse-engineering next to us, an expert in smart cards, ex-employee of any of the named organisations having worked on the tech, please get in touch. Any contribution is greatly appriciated and hopefully can go a long way towards a demmocratic future for Iran. You annonimity can be guaranteed.
 
-## Unpackingn Process
+## Unpacking Process
 Matiran, the devoloper of the NID, has published a software development kit which can be found in its original form [here](./matiran-sdk/MDAS-Client_x64.dll).  
 We decided to unpack the SDK and and reverse-engineer it to find the methods and APDU commands used to communicate with the card.
 
@@ -29,7 +29,7 @@ Unpacked [DLL](./matiran-sdk/dump_oep-modified_sec_fixedIAT.dll).
 ---
 ### **National Developer of the Card OS (Matiran)**
 
-* Technical docs from MatIran(Gov. Contractor for the ID Card) / روال ارزيابي و مشخصات فني مورد نياز كارت خوان  
+* Technical docs from MatIran/ روال ارزيابي و مشخصات فني مورد نياز كارت خوان  
   * [اسكنر اثر انگشت و وبكم در سامانه بهره برداري از كارت هوشمند ملي](https://matiran.ir/wp-content/uploads/2024/02/021205-IRANID_Devices_Evaluation_100_15.1.pdf)	
 
 
@@ -63,4 +63,4 @@ Unpacked [DLL](./matiran-sdk/dump_oep-modified_sec_fixedIAT.dll).
     
 * **Standards**  
   * Iran National Standards Organization ICS:35.240.15 (we suspect analogues to or accompanying ISO 14443-4). National ID Cards are implemented according to this standard, however the specification looks too broad and generic to be useful: [https://shaghool.ir/Files/services-16386-3.pdf](https://shaghool.ir/Files/services-16386-3.pdf)  
-  * IS parliament’s Research Center report of ID Card project status and challenges:  [ارزیابی پروژه صدور كارت هوشمند ملی و ارائه پيشنهادات سياستی](https://www.sid.ir/fileserver/pf/majles/17269.pdf)  
+  * Majles Research Center report of ID Card project status and challenges:  [ارزیابی پروژه صدور كارت هوشمند ملی و ارائه پيشنهادات سياستی](https://www.sid.ir/fileserver/pf/majles/17269.pdf)  
