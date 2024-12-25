@@ -1,3 +1,6 @@
+## Flow
+![Basic Flow Diagram](../assets/flow-diagram.png)
+
 ## Glossary
 
 - SOD: Document Security Object (SOD)
