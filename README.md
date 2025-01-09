@@ -4,7 +4,7 @@ Around 65 million Iranians hold the smart Iranian identity card (NID) or کار�
 
 National Organization for Civil Registration is the main body in charge of the NIDs and [Matiran Co.](https://www.linkedin.com/company/matiran/about/), is believed to be the main developer of (all or some parts of) the software on the cards.
 
-We are currently investigating one of the Matiran's protected SDKs used by a 3rd party application [(Dastine)](pki.co.ir), and will gradually share our findings with you as we proceed. If you are interested in reverse-engineering next to us, an expert in smart cards, ex-employee of any of the named organisations having worked on the tech, please get in touch. Any contribution is greatly appriciated and hopefully can go a long way towards a demmocratic future for Iran. You annonimity can be guaranteed.
+We are currently investigating one of the Matiran's protected SDKs used by a 3rd party application [(Dastine)](pki.co.ir), and will gradually share our findings with you as we proceed. If you are interested in reverse-engineering next to us, an expert in smart cards, ex-employee of any of the named organisations having worked on the tech, please get in touch. Any contribution is greatly appriciated and hopefully can go a long way towards a demmocratic future for Iran. Your annonimity can be guaranteed.
 
 ## Unpacking Process
 Matiran, the devoloper of the NID, has published a software development kit which can be found in its original form [here](./matiran-sdk/MDAS-Client_x64.dll).  
