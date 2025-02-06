@@ -24,7 +24,7 @@ We used another custom tool specifically made for writing the imports, making ch
 
 Eventually we I had to verify every single imported function to make sure we had not made a mistake, and when verified, we were able to load the DLL into the memory successfully!
 
-Unpacked [DLL](./matiran-sdk/dump_oep-modified_sec_fixedIAT.dll).
+Unpacked [DLL](./assets/matiran-sdk/dump_oep-modified_sec_fixedIAT.dll).
 
 ---
 ### **National Developer of the Card OS (Matiran)**
