@@ -1,6 +1,11 @@
+## 04.03.2025 Report of Activities & details of the Committed Code
+- Reversed flow of executing APDU commands in MDAS.dll.
+- Fixed issues with the card reader and “GetFingerIndex”.
+- Partially reverse engineered “NIDAuthenticateByPIN”.
+- Reverse engineered the Android APK and signature verification code.
 
-## Flows:
-```flowdoc 
+## Initial Report
+```
 1) load_library export function()
  *v0 = &off_180D31690;
  *(v0 + 8) = &MDIS_SDK::MDISClient::`vftable';
@@ -15,7 +20,6 @@
 	init_MDIS_180026E70();
 		remove("Pardis.txt"), remove("Mav2.txt"), remove("Mav3.txt"), remove("Mav4.txt"), remove("mdaslog.txt")
 		call constructor of Pardis_PIS_2::Pardis_PIS_2(v16, a2, v22); create three Pardis--->v13 = Omid::Omid(v11, *(_QWORD *)a1, (unsigned int)v25, v12, (__int64)v22);
-		
 		
 2) get_new_instance export function(PVOID MDAS_SDK_Instance, Int type)
 
@@ -34,13 +38,8 @@ type == 500 --> MDIS_SDK::DeviceInfo, 0x68
 
 3) execute export function()
 
-
 4) set_parameter function(handle, Service_Authenticate_v1 inst) 
 _7Service_Authenticate_v1@@6B@;; 180D36780
-
-
-
-
 
 Dastine.exe--->if command is "NIDAuthenticateByPIN"
 
@@ -96,8 +95,7 @@ AuthenticateByPIN_1400BDA30()
 		"11AC03CBD979972A67203ABDC6A126F6C7D17FA691DB7B17E1B67538ACB6C63CA2F4124A5E165B4A7A91FD05A09AE06B3C1506467E0D63903252"
 		"1900F2596BAE2B4205AE8BE9BF30EA37A3BA51A1FD36258E2D183BA74149C12BE73CE9AB838C21D71AF6A926109ECD512245AC0AE803927175FF"
 		"08B2CB45CC50B067E5E769E8C4C410DC022FDFC840E0B276014020E1A93E2368C63C9FF6DC97C097229D4DF1F4EDA9F69F61A3E2EB6F10C4DBEAB3"
-		
-		
+		****
 		CA_Name: "IRAN Digital ID CA2"
 		"IRAN Digital Citizen CA 20"
 		
@@ -157,7 +155,6 @@ AuthenticateByPIN_1400BDA30()
 	if initialize_service_1400BC500 succeded
 		Authenticate_v1_1400BCC10()
 			set_parameters_for_authenticate_1400AF5D0()
-				
 				
 				mdas_get_new_instance_1404D25D0(630); 630: Service_Authenticate_v1, 0x528
 					LevelOfAssurance = mdas_get_new_instance_1404D25D0(480); 480: MDIS_SDK::LevelOfAssurance, 0x18, MDIS_SDK::LevelOfAssurance::`vftable'
