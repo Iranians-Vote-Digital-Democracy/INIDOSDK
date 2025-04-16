@@ -1,3 +1,6 @@
 *.i64
 *.til
 *.DS_Store
+__pycache__
+.pytest_cache__
+.venv
