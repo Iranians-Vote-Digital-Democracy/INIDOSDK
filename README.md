@@ -23,6 +23,9 @@ IDA databases:
 - Mobile [App](https://github.com/Iranians-Vote-Digital-Democracy/INIDCA) (Android)
 - Desktop [C++ code](./src/)
 
+## **CERTIFICATE CHAIN VALIDATION**
+- [test_cert_validation](./test_cert_chain/README.md)
+
 ## **FURTHER READING**
 
 - [Iran’s PKI policies on digital certificates](https://drive.google.com/file/d/1V3SLn3pa-fy2uBMsOLw4NEWzHKZSb0uQ/view?usp=drive_link) (Persian)

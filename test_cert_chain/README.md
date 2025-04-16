@@ -28,7 +28,7 @@ pytest -s --root-ca /path/to/root.pem --intermediate-ca /path/to/intermediate.pe
 
 e.g pytest -s --root-ca rootCA.pem --intermediate-ca intermediateCA.pem --end-entity leaf.pem
 ```
-* leaf is equivalent of citizen's certificate, intermediateCA is similar to Iran Digital Citizen CA, and rootCa
+* leaf is equivalent of citizen's certificate, intermediateCA is similar to Iran Digital Citizen CA, and rootCa is Iran Root CA self-signed certificate.
 ### Command Line Arguments
 
 - `--root-ca`: Path to the root CA certificate file (PEM or DER format)
