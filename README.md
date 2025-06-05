@@ -1,7 +1,7 @@
 ## **OPEN SDK for IRANIAN NATIONAL IDENTITY CARD**
 
 More than 63 million Iranians hold the Iranian National Identity smart card (NID).
-Goal of this project is to create _zero-knowledge proofs_ of identity, using the NID. For more information pleasse read our [paper](https://docs.google.com/document/d/18kjUKhLuJ0IfRMrl2NZBXwipya2fKVqmXfLsZpZE9bQ/) and visit our [main project](https://github.com/Iranians-Vote-Digital-Democracy).
+Goal of this project is to create _zero-knowledge proofs_ of identity, using the NID. For more information please read our [paper](https://docs.google.com/document/d/18kjUKhLuJ0IfRMrl2NZBXwipya2fKVqmXfLsZpZE9bQ/) and visit our [main project](https://github.com/Iranians-Vote-Digital-Democracy).
 
 National Organization for Civil Registration is the main body in charge of the NIDs in Iran, and [Matiran Co.](https://www.linkedin.com/company/matiran/about/), is the main developer of the software related to the cards. The state-developed SDK we worked on in this project is responsible for communicating with the card.
 
