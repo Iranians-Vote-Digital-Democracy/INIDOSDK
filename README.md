@@ -20,7 +20,7 @@ IDA databases:
 
 ## **TEST ON YOUR CARD**
 
-- Mobile [App](https://github.com/Iranians-Vote-Digital-Democracy/INIDCA) (Android & iOS)
+- Mobile App: [Android](https://play.google.com/store/apps/details?id=vote.iranians.inid_assistant&hl=en) | [iOS](https://apps.apple.com/de/app/inid-assistant/id6748020863) | [Source Code](https://github.com/Iranians-Vote-Digital-Democracy/INIDCA)
 - Desktop [C++ code](./src/)
 
 ## **CERTIFICATE CHAIN VALIDATION**
